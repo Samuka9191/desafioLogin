@@ -10,10 +10,11 @@ document.addEventListener("DOMContentLoaded", function () {
         const senha = document.getElementById("senha").value;
         const mensagemErro = document.getElementById("mensagemErro");
 
-        if (usuario === "Anonimo@gmail.com" && senha === "luisfernandospoljaric") {
+        if (usuario === "Anonimo@gmail.com" && senha === "V9@qL#72mZ!xP$4wR&8nT^5kB*3fH6@y") {
             window.location.href = "menu.html";
-        } else {
-            mensagemErro.textContent = "Usuário ou senha incorretos. Tente novamente!";
+        } else {  mensagemErro.textContent = "Usuário ou senha incorretos. Tente novamente!";
+            window.location.href = "erro.html"
+          
         }
     });
 
